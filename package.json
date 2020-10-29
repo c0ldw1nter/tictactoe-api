@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "build": "babel src -d lib",
+        "test": "mocha"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.1",
+        "@babel/core": "^7.12.3",
+        "@babel/preset-env": "^7.12.1",
+        "mocha": "^8.2.0"
+    }
+}
